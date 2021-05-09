@@ -1,0 +1,36 @@
+body {
+    background-image: url("img/KsVElpX-space-invaders-wallpaper.png");
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+    color: red;
+    margin-left: 0px;
+
+}
+
+.main {
+    display: block;
+    float: left;
+    font-style: italic;
+    color: red;
+    margin-top: 120px;
+    
+}
+
+ul {
+    list-style:none;
+
+h1  {
+    margin-right: 100px;
+
+}
+
+   
+    
+
