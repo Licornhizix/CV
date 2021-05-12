@@ -2,9 +2,9 @@
     font-family: 'wwDigital';
     src: url('fonts/wwDigital.eot');
     src: url('fonts/wwDigital.eot?#iefix') format('embedded-opentype'),
-         url('fonts/wwDigital.woff') format('woff'),
-         url('fonts/wwDigital.ttf') format('truetype'),
-         url('fonts/wwDigital.svg#DancingScript') format('svg');
+    url('fonts/wwDigital.woff') format('woff'),
+    url('fonts/wwDigital.ttf') format('truetype'),
+    url('fonts/wwDigital.svg#DancingScript') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,7 +14,9 @@
 
 
 body {
-    background-image: url("img/KsVElpX-space-invaders-wallpaper.png");
+    background-image: url("img/314771.jpg");
+    background-size: cover;
+
 }
 
 
@@ -27,27 +29,42 @@ body {
     font-style: italic;
     color: red;
     margin-left: 0px;
+    position: relative;
+    left: 5%;
 
 }
 
 .main {
     font-family: 'wwDigital';
-    display: block;
-    float: left;
+    display: flex;
+    justify-content: center;     
+    flex-direction: column;
+    align-items: center;
     font-style: italic;
     color: red;
-    margin-top: 120px;
-    
+    border-right: solid red;
+    left:0px;
+    width:300px;
+    bottom:0px;
+    top:0px;
+    overflow:auto;
+    position: fixed;
 }
 
 ul {
     list-style:none;
-
-h1  {
-    margin-right: 100px;
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
-   
-    
+
+
+img {
+    width: 150px;
+    height:150px;
+    border: solid red 2px;
+}
+
+
 
